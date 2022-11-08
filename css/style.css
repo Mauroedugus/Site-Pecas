@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#cabecalho{
+color:#e7e7e7;
+background-color: #23232e;
+text-align: center;
+height: 80px;
+line-height: 80px;
+}
+
+#caixa_maior{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.caixa{
+    margin-top: 60px;
+    background-color: #23232e;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.texto{
+color: #e7e7e7;
+background-color: #23232e;
+font-family: 'Lato', sans-serif;
+font-size: 20px;
+width: 300px;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+/* box-shadow: 0px 0px 8px -4px; */         
+}
+
+.texto:nth-child(odd){
+margin-left: 65px;
+}
+
+.texto:nth-child(even){
+    margin-right: 65px;
+    }
+    
+
+.img{
+width: 300px;
+border-radius: 10px;
+box-shadow: 0px 0px 8px -4px;
+display: flex;     
+}
+
+.img img{
+width: 100%;
+border-radius: 10px; 
+}
+
+h1{
+    font-size: 35px;
+}
+
+body{
+background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-sem-costura-padrao-de-trama_53876-115290.jpg?w=1060&t=st=1667929761~exp=1667930361~hmac=7a13668963761a7c077fa98fb64f935e1248c68f3e0bffef6acb36977364a029);
+}
+
+
+
